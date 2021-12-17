@@ -1,6 +1,9 @@
-12/16/2021: Nada, Corina, Nicole
+12/16/2021
 - Came up with plan
 - looked at function of `public static long currentTimeMillis()`
 - Corina suggested coming up with different arraylists of variable lengths and printing time before and after and finding the time it takes to print time
 - Nada suggested way to find differences between the print statements and from subtracting the time it takes to print time from the difference, and to find average for each incrementation of arraylists.
 - Nicole suggested to run multiple tests of the same event as to find the uncertainty and averge of each tests.
+
+12/17/2021
+- Our trio read issues given by other thinkerens and revised plan accordingly.
