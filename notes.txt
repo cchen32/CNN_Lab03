@@ -1,3 +1,5 @@
 DISCOS
+- public static long currentTimeMillis()
 
 QCC
+- difference between currentTimeNanos()?
