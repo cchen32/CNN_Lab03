@@ -7,3 +7,5 @@
 
 12/17/2021
 - Our trio read issues given by other thinkerens and revised plan accordingly.
+- SearchDriver.java runs and linsearches and binsearches through a simple array
+- The time is the same for both linsearch and binsearch (difference of 0)
