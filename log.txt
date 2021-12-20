@@ -15,3 +15,6 @@
 - Tested cases of 100,000,000 and 500,000,000 (seemingly too much for two arrays but worked before for singular array)
 - Decided that there's no need to populate arrays with new numbers for each new tests because it won't change the way Linear Search and Binary Search is ran.
 - We run each tests multiple times, and Binary Search is faster most of the time.
+
+12/20/2021
+- Modified SearchDriver.java to populate with larger variety
