@@ -36,32 +36,32 @@ public class SearchDriver{
     System.out.println("linear search time: " + linAv(testher0));
 
     // Testing 100,000,000
-    Comparable[] testher = new Integer[100_000_000];
-    for( int i = 0; i < testher.length; i++ ) {
-      testher[i] = (int)(Math.random()*1000);
+    Comparable[] testher1 = new Integer[100_000_000];
+    for( int i = 0; i < testher1.length; i++ ) {
+      testher1[i] = (int)(Math.random()*1000);
     }
-    System.out.println("size: " + testher.length);
-    System.out.println("binary search time: " + binAv(testher));
-    System.out.println("linear search time: " + linAv(testher));
+    System.out.println("size: " + testher1.length);
+    System.out.println("binary search time: " + binAv(testher1));
+    System.out.println("linear search time: " + linAv(testher1));
 
-    // // Testing 500,000,000
-    // Comparable[] testher1 = new Integer[300000000];
-    // for( int i = 0; i < testher1.length; i++ ) {
-    //   testher1[i] = (int)(Math.random()*1000);
+    // // Testing 100,000,000 again - currently too big for java's heap space
+    // Comparable[] testher2 = new Integer[100_000_000];
+    // for( int i = 0; i < testher2.length; i++ ) {
+    //   testher2[i] = (int)(Math.random()*1000);
     // }
-    //
-    // System.out.println("size: " + testher1.length);
-    // System.out.println("binary search time: " + binAv(testher1));
-    // System.out.println("linear search time: " + linAv(testher1));
+    // 
+    // System.out.println("size: " + testher2.length);
+    // System.out.println("binary search time: " + binAv(testher2));
+    // System.out.println("linear search time: " + linAv(testher2));
 
-    Comparable[] testher2 = new Integer[5_000_000];
-    for(int i = 0; i < testher2.length; i++){
-      testher2[i] = i;
+    Comparable[] testher3 = new Integer[5_000_000];
+    for(int i = 0; i < testher3.length; i++){
+      testher3[i] = i;
     }
 
-    System.out.println("size: " + testher2.length);
-    System.out.println("binary search time: " + binAv(testher2));
-    System.out.println("linear search time: " + linAv(testher2));
+    System.out.println("size: " + testher3.length);
+    System.out.println("binary search time: " + binAv(testher3));
+    System.out.println("linear search time: " + linAv(testher3));
   }
 
 }
