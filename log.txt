@@ -18,3 +18,4 @@
 
 12/20/2021
 - Modified SearchDriver.java to populate with larger variety
+- Our data started to show significant difference between bin and lin search times
