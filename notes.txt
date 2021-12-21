@@ -1,5 +1,34 @@
 DISCOS:
 - public static long currentTimeMillis()
+- linear search increases in time exponentially as the array size does so
 
 QCCS:
 - difference between currentTimeNanos()?
+- is binary search working too well?
+
+GALLERY TOUR:
+
+  JWJ:
+  - created arrays of size 2^n until n reached 27
+  - recorded min, max, and average times for lin and bin searches
+  - bin search time is always less than 1 millisecond
+  - values of the arrays matched their indices
+  -> bin search is faster than lin search
+  
+  AllBrians:
+  - 1,000 trials of each lin and bin search with a random target each time
+  - recorded min, max, and average times
+  - recorded index of the search
+  - didn't check the time if it's not in the array (didn't check for best/worst case scenarios)
+  - created arrays by powers of 10
+  - sometimes maxTime is larger than minTime (something interesting)
+  -> bin search is faster than lin search in most cases
+  
+  Gamma Ray:
+  - binary search is way too efficient
+  - iterated through bin search 100 thousand times, and lin search 10 times
+    -> nonetheless, bin search took far less time
+  - tested for worst case scenario (is it always looking for the worst case scenario?)
+  - binary search efficiency increased exponentially in comparison to linear search
+  - averaged 50 trials for more accuracy in order to account for outliers/discrepancies
+  - used (int) instead of (float) or (double) -> may lost important values in doing so
