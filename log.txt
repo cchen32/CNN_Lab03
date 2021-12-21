@@ -19,3 +19,6 @@
 12/20/2021
 - Modified SearchDriver.java to populate with larger variety
 - Our data started to show significant difference between bin and lin search times
+- Created a method to populate an array (ordered)
+- Generated new arrays exponentially in a for loop instead of creating them individually
+- Reached our conclusion that binary search is faster than linear search in most cases
