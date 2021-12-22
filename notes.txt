@@ -1,3 +1,9 @@
+CNN: Nicole Zhou + Duck, Corina Chen + BinkTop, Nada Hameed + Ray
+APCS
+L03 Notes
+12-21-2021
+Time Spent: 0.5 hr
+
 DISCOS:
 - public static long currentTimeMillis()
 - linear search increases in time exponentially as the array size does so
