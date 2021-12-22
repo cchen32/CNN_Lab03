@@ -39,3 +39,23 @@ GALLERY TOUR:
   - binary search efficiency increased exponentially in comparison to linear search
   - averaged 50 trials for more accuracy in order to account for outliers/discrepancies
   - used (int) instead of (float) or (double) -> may lost important values in doing so
+  
+  Big Apples:
+  - Tested for small and large indexes and arrays
+  - Wrote methods with the same function (one with for loops and another without for loops) and found that the method with for loops took longer
+  - Found average time to account for outliers
+  - Binear Search is usually faster
+  - Found a linear relationship between array length and the time it takes to search
+  
+  Strawberry Jam:
+  - Did worst case (meaning not in the array) search multiple times
+  - Mentioned that they had an initial lag
+  - Binary search time stayed between 0-1 but linear search time becomes massive
+  - As array size increase by a factor of 10, linear search time increases by a factor of 10 ==> suggesting linear growth
+  
+  ABA:
+  - Populated their arrays with even numbers
+  - They did 100 repetitions
+  - Contained a graph showing the relationship between array length and difference between binary and linear search times
+  - Binary search time is often 0 while linear search grows to a big number
+  - Binary is more efficient
