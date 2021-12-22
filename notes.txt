@@ -5,6 +5,7 @@ DISCOS:
 QCCS:
 - difference between currentTimeNanos()?
 - is binary search working too well?
+- What causes the initial lag?
 
 GALLERY TOUR:
 
