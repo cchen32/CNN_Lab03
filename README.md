@@ -63,5 +63,5 @@ binary search time: 13.0
 
 
 ### Conclusions:
-* In smaller arrays, linear search runs faster. However, within a larger one, there is stronger evidence showing that binary searches are much, much faster.
+* In smaller arrays, linear search runs faster. However, within a larger one, there is stronger evidence showing that binary searches are much, much faster. Our threshold for a seemingly faster binary array is about size 1000.
 * The larger the array gets, the slower linear search becomes, whereas binary search only takes a fraction of the time.
