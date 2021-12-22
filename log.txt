@@ -22,3 +22,7 @@
 - Created a method to populate an array (ordered)
 - Generated new arrays exponentially in a for loop instead of creating them individually
 - Reached our conclusion that binary search is faster than linear search in most cases
+
+12/21/2021
+- Made some modifications in SearchDriver to get rid of initial lag
+- Added gallery notes
