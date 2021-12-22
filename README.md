@@ -7,7 +7,7 @@
 * Got the total time of the time it took to run each method as a whole
 
 ### Results:
-* Arrays of size 1:
+* Arrays of size 1 (includes initial lag):
 ```
 size: 1
 binary search time: 14.0
