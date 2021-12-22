@@ -1,3 +1,11 @@
+/*
+CNN: Nicole Zhou + Duck, Corina Chen + BinkTop, Nada Hameed + Ray
+APCS
+L03 Search Driver
+12-21-2021
+Time Spent: 1.5 hr
+*/
+
 public class SearchDriver{
 
   //method to determine the avg time for binary search of testing through several targets
