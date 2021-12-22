@@ -26,8 +26,8 @@ public class SearchDriver{
     for(int x = 0; x < 1000; x++){
       start = System.currentTimeMillis();
       for(int i = 0; i < 100; i++){
-        LinSearch.linSearch(arr, i);
-        //LinSearch.linSearch(arr, ((int)Math.random()*(arr.length)));
+        //LinSearch.linSearch(arr, i);
+        LinSearch.linSearch(arr, ((int)Math.random()*(arr.length)));
       }
       end = System.currentTimeMillis();
       total = total + (end - start);
@@ -42,6 +42,12 @@ public class SearchDriver{
   }
 
   public static void main(String[] args) {
+    Comparable[] init = new Comparable[1];
+    populate(init);
+    System.out.println("size: " + init.length);
+    System.out.println("binary search time: " + binAv(init));
+    System.out.println("linear search time: " + linAv(init));
+
     for (int i = 1; i < 1_000_000_000; i *= 10) {
       Comparable[] testher = new Integer[i];
       populate(testher);
